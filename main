@@ -44,11 +44,12 @@ int main() {
                 break;
             }
 
-            if (box1 != ' ' && box2 != ' ' && box3 != ' ' && box4 != ' ' && box5 != ' ' // Check if game is a draw
+            if (box1 != ' ' && box2 != ' ' && box3 != ' ' && box4 != ' ' && box5 != ' '
                 && box6 != ' ' && box7 != ' ' && box8 != ' ' && box9 != ' ') {
                 cout << "\t  **DRAW!!**" << endl << endl;
                 Display(box1, box2, box3, box4, box5, box6, box7, box8, box9); // Display final state
                 endGame = true;
+                break;
             }
 
             // Player O move
